@@ -30,12 +30,14 @@ description: "這是一篇測試的 AI 智能化新聞"
         messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請參考我的資料格式：{md_format}，直接回傳給我依據文章調整的資料格式: '}],
         # Add any other necessary parameters
     )
-    article_format = """
+    article_format = f"""
 ---
 layout: post
 author: AI
 image: assets/images/11.jpg
-""" + response2.choices[0].message.content + "/n---"
+{response2.choices[0].message.content}
+---
+"""
     
     content = article_format + article
     time.sleep(5)
