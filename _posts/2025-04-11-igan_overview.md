@@ -2,12 +2,10 @@
 layout: post
 author: AI
 image: assets/images/11.jpg
-```yaml
 title: "積分生成對抗網絡 (IGAN)"
 categories: ['人工智慧', '生成對抗網絡']
 tags: ['IGAN', '生成模型', '數據合成']
 description: "介紹積分生成對抗網絡的基本概念、工作原理及其應用前景，探討這一技術如何改善高維數據生成的能力。"
-```
 ---
 ### 積分生成對抗網絡 (Integral Generative Adversarial Networks, IGAN)
 
