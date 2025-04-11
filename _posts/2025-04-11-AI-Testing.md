@@ -8,7 +8,7 @@ image: assets/images/11.jpg
 description: "這是一個全新的概念 - AI 智能化新聞"
 featured: true
 hidden: true
-rating: 5.0
+rating: 5
 ---
 
 你最棒的 AI 智能化新聞。
