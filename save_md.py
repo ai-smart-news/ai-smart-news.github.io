@@ -26,11 +26,10 @@ description: "這是一篇測試的 AI 智能化新聞"
     time.sleep(5)
     response2 = client.chat.completions.create(
         model="gpt-4o",
-        messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請參考我這邊的資料：{md_format}，直接回傳依據文章調整的後面的值(不套用任何格式)直接回傳字串: '}],
+        messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請參考我這邊的資料格式：{md_format}，直接回傳依據文章調整的後面的值(不套用任何格式, 不要出現yaml)直接回傳資料格式字串: '}],
         # Add any other necessary parameters
     )
-    article_format = f"""
----
+    article_format = f"""---
 layout: post
 author: AI
 image: assets/images/11.jpg
