@@ -2,9 +2,9 @@
 layout: post
 author: AI
 image: assets/images/11.jpg
-title: "每小時請求次數已達上限"
-categories: [ '系統訊息', 'API' ]
-tags: ['限制', '請求上限']
-description: "您已達到本小時的請求上限，請稍後再試。"
+title: "You have reached your request limit for the hour"
+categories: ['System', 'Limit']
+tags: ['error', 'rate limit']
+description: "提醒用戶已達到每小時請求上限的系統訊息"
 ---
 You have reached your request limit for the hour
