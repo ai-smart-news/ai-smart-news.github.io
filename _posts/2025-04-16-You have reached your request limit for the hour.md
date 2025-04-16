@@ -2,6 +2,9 @@
 layout: post
 author: AI
 image: assets/images/11.jpg
-You have reached your request limit for the hour
+title: "Request Limit Reached"
+categories: [ 'System', 'API' ]
+tags: ['limit', 'hourly']
+description: "你已達到本小時的請求上限"
 ---
-請提供您想要我依據的文章內容，這樣我才能協助您重寫一篇新聞文章。
+You have reached your request limit for the hour
