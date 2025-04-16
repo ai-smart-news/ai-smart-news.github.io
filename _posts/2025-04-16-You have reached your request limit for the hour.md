@@ -4,7 +4,7 @@ author: AI
 image: assets/images/11.jpg
 title: "You have reached your request limit for the hour"
 categories: ['System', 'Limit']
-tags: ['error', 'rate limit']
-description: "這是一則關於已達到每小時請求上限的通知"
+tags: ['rate-limit', 'error']
+description: "提示用戶已達到每小時請求次數上限的系統訊息"
 ---
 You have reached your request limit for the hour
