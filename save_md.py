@@ -78,21 +78,8 @@ def main():
     index = random.randint(0, len(my_data) - 1)
 
     providers = [
-        "ChatGLM",
-        "Chatai",
         "Free2GPT",
-        "G4F",
-        "GizAI",
-        "Goabror",
-        "HuggingSpace",
-        "Liaobots",
-        "MetaAI",
-        "PollinationsAI",
-        "Qwen_QVQ_72B",
-        "Qwen_Qwen_2_5",
-        "Qwen_Qwen_2_5M",
-        "Qwen_Qwen_2_5_Max",
-        "Qwen_Qwen_2_72B",
+        "TeachAnything",
         "Websim"]
     selected_provider = random.choice(providers)
     client = Client(provider = selected_provider)
@@ -103,7 +90,7 @@ tags: ['red', 'yellow']
 description: "這是一篇測試的 AI 智能化新聞"
 """
     response = client.chat.completions.create(
-        model="gpt-4o",
+        model="gemini-1.5-pro",
         # messages=[{"role": "user", "content": f'請給我一則 AI 的科普文章，請隨機從 ML/DL/CV/NLP/LLM/Stable diffusion等各式AI領域，隨機選擇一個技術點，幫我撰寫一篇技術文章。請直接給我文章:'}],
         messages=[{"role": "user", "content": f'請依據此文章: {my_data[index]}，幫我重新撰寫一篇新聞文章，文章長度約600字。請直接給我文章:'}],
 
@@ -116,7 +103,7 @@ description: "這是一篇測試的 AI 智能化新聞"
     selected_provider = random.choice(providers)
     client = Client(provider = selected_provider)
     response2 = client.chat.completions.create(
-        model="gpt-4o",
+        model="gemini-1.5-pro",
         messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請參考我這邊的資料格式：{md_format}，直接回傳依據文章調整的後面的值(不套用任何格式, 不要出現yaml)直接回傳資料格式字串: '}],
         # Add any other necessary parameters
     )
@@ -134,7 +121,7 @@ image: assets/images/11.jpg
     selected_provider = random.choice(providers)
     client = Client(provider = selected_provider)
     response3 = client.chat.completions.create(
-        model="gpt-4o",
+        model="gemini-1.5-pro",
         messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請簡單給我英文的字串檔名，例如:machine_leanring_introduction，不用回覆我任何說明訊息，請直接給我檔名:'}],
         # Add any other necessary parameters
     )
