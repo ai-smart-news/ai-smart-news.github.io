@@ -124,7 +124,7 @@ image: assets/images/11.jpg
         messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請簡單給我英文的字串檔名，例如:machine_leanring_introduction，不用回覆我任何說明訊息，請直接給我檔名:'}],
         # Add any other necessary parameters
     )
-    file_name_text = response3.choices[0].message.content.replace('/n','').replace(' ','')
+    file_name_text = response3.choices[0].message.content.replace('/n','').replace(' ','').replace('\n','')
 
 
     # 先定義要寫入的資料夾名稱
