@@ -78,21 +78,21 @@ def main():
     index = random.randint(0, len(my_data) - 1)
 
     providers = [
-        "ChatGLM"
-        "Chatai"
-        "Free2GPT"
-        "G4F"
-        "GizAI"
-        "Goabror"
-        "HuggingSpace"
-        "Liaobots"
-        "MetaAI"
-        "PollinationsAI"
-        "Qwen_QVQ_72B"
-        "Qwen_Qwen_2_5"
-        "Qwen_Qwen_2_5M"
-        "Qwen_Qwen_2_5_Max"
-        "Qwen_Qwen_2_72B"
+        "ChatGLM",
+        "Chatai",
+        "Free2GPT",
+        "G4F",
+        "GizAI",
+        "Goabror",
+        "HuggingSpace",
+        "Liaobots",
+        "MetaAI",
+        "PollinationsAI",
+        "Qwen_QVQ_72B",
+        "Qwen_Qwen_2_5",
+        "Qwen_Qwen_2_5M",
+        "Qwen_Qwen_2_5_Max",
+        "Qwen_Qwen_2_72B",
         "Websim"]
     selected_provider = random.choice(providers)
     client = Client(provider = selected_provider)
