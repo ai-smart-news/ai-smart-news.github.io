@@ -79,7 +79,6 @@ def main():
 
     providers = [
         "Free2GPT",
-        "TeachAnything",
         "Websim"]
     selected_provider = random.choice(providers)
     client = Client(provider = selected_provider)
