@@ -77,7 +77,25 @@ def main():
 
     index = random.randint(0, len(my_data) - 1)
 
-    client = Client()
+    providers = [
+        "ChatGLM"
+        "Chatai"
+        "Free2GPT"
+        "G4F"
+        "GizAI"
+        "Goabror"
+        "HuggingSpace"
+        "Liaobots"
+        "MetaAI"
+        "PollinationsAI"
+        "Qwen_QVQ_72B"
+        "Qwen_Qwen_2_5"
+        "Qwen_Qwen_2_5M"
+        "Qwen_Qwen_2_5_Max"
+        "Qwen_Qwen_2_72B"
+        "Websim"]
+    selected_provider = random.choice(providers)
+    client = Client(provider = selected_provider)
     md_format = """
 title:  "AI 測試新聞"
 categories: [ 'Jekyll', 'AI' ]
@@ -94,6 +112,9 @@ description: "這是一篇測試的 AI 智能化新聞"
 
     article = response.choices[0].message.content
     time.sleep(5)
+
+    selected_provider = random.choice(providers)
+    client = Client(provider = selected_provider)
     response2 = client.chat.completions.create(
         model="gpt-4o",
         messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請參考我這邊的資料格式：{md_format}，直接回傳依據文章調整的後面的值(不套用任何格式, 不要出現yaml)直接回傳資料格式字串: '}],
@@ -109,9 +130,12 @@ image: assets/images/11.jpg
     
     content = article_format + article
     time.sleep(5)
+
+    selected_provider = random.choice(providers)
+    client = Client(provider = selected_provider)
     response3 = client.chat.completions.create(
         model="gpt-4o",
-        messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請簡單給我英文的字串檔名，例如:machine_leanring_introduction，請直接給我檔名:'}],
+        messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請簡單給我英文的字串檔名，例如:machine_leanring_introduction，不用回覆我任何說明訊息，請直接給我檔名:'}],
         # Add any other necessary parameters
     )
     file_name_text = response3.choices[0].message.content
