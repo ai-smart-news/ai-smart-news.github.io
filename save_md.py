@@ -39,6 +39,25 @@ def crawler(link):
   soup = BeautifulSoup(r.text, 'html.parser')
   return soup
 
+import requests
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
+import re
+
+def image_search(keyword, headers):
+    link = 'https://www.google.hr/search?q=' + keyword + '&hl=en&source=lnms&tbm=isch&sa=X'
+    r = requests.get(link, headers=headers)
+    soup = BeautifulSoup(r.text, 'html.parser')
+    return soup
+def save_img(save_folder, link):
+  img = urlopen(link)
+  with open(save_folder + '/' + link.split('/')[-1], 'wb') as f:
+    f.write(img.read())
+  return save_folder + '/' + link.split('/')[-1]
+def extract_jpg_urls(text):
+    pattern = r'https://[^"]+?\.jpg'
+    return re.findall(pattern, text)
+
 
 def main():
     categories = [
@@ -106,10 +125,15 @@ description: "這是一篇測試的 AI 智能化新聞"
         messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請參考我這邊的資料格式：{md_format}，直接回傳依據文章調整的後面的值(不套用任何格式, 不要出現yaml)直接回傳資料格式字串: '}],
         # Add any other necessary parameters
     )
+    title = response2.choices[0].message.content.split('"')[1]
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',}
+    img_soup = image_search(title, headers)
+    img_path = save_img('img', extract_jpg_urls(str(img_soup))[1])
+
     article_format = f"""---
 layout: post
 author: AI
-image: assets/images/11.jpg
+image: {img_path}
 {response2.choices[0].message.content}
 ---
 """
