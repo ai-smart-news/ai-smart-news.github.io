@@ -91,7 +91,7 @@ description: "這是一篇測試的 AI 智能化新聞"
     response = client.chat.completions.create(
         model="gemini-1.5-pro",
         # messages=[{"role": "user", "content": f'請給我一則 AI 的科普文章，請隨機從 ML/DL/CV/NLP/LLM/Stable diffusion等各式AI領域，隨機選擇一個技術點，幫我撰寫一篇技術文章。請直接給我文章:'}],
-        messages=[{"role": "user", "content": f'請依據此文章: {my_data[index]}，幫我重新撰寫一篇新聞文章，文章長度約600字，並將原始新聞出處移除，不要顯示任何出處或是作者資訊，請用Markdown排版。請直接給我文章:'}],
+        messages=[{"role": "user", "content": f'請依據此文章: {my_data[index]}，幫我重新撰寫一篇新聞文章，文章長度約600字，並將原始新聞出處移除，不要顯示任何出處或是作者資訊，請用Markdown排版-不用特別提供```markdown的註記。請直接給我文章:'}],
 
         # Add any other necessary parameters
     )
