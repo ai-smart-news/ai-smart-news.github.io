@@ -5,7 +5,7 @@ description: "智新聞網由 AI 打造而成，為讀者提供最即時、高�
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
-google_analytics: 'UA-46278016-1'
+google_analytics: 'G-4XESGB3TDR'
 disqus: 'demowebsite'
 include: ["_pages"]
 permalink: /:title/
