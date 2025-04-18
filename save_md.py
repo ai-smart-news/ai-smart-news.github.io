@@ -97,7 +97,6 @@ def main():
     index = random.randint(0, len(my_data) - 1)
 
     providers = [
-        "Free2GPT",
         "Websim"]
     selected_provider = random.choice(providers)
     client = Client(provider = selected_provider)
