@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mediumish Template for Jekyll
+title: 關於 Smart News
 permalink: /about
 comments: true
 ---
@@ -8,8 +8,8 @@ comments: true
 <div class="row justify-content-between">
 <div class="col-md-8 pr-5">
 
-<p>This website is built with Jekyll and Mediumish template for Jekyll. It's for demonstration purposes, no real content can be found. Mediumish template for Jekyll is compatible with Github pages, in fact even this demo is created with Github Pages and hosted with Github.</p>
-
+<p>隨著生成式 AI 的盛起，AI 能做到許多過往不能做的事情，本網站透過 AI Agent 進行開發，打造全自動化、AI生成最即時、最新的新聞。</p>
+<!-- 
 <p class="mb-5"><img class="shadow-lg" src="{{site.baseurl}}/assets/images/mediumish-jekyll-template.png" alt="jekyll template mediumish" /></p>
 <h4>Documentation</h4>
 
@@ -18,7 +18,7 @@ comments: true
 <h4>Questions or bug reports?</h4>
 
 <p>Head over to our <a href="https://github.com/wowthemesnet/mediumish-theme-jekyll">Github repository</a>!</p>
-
+ -->
 </div>
 
 <div class="col-md-4">
