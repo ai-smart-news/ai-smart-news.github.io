@@ -4,7 +4,8 @@ title: "智新聞"
 description: "智新聞網由 AI 打造而成，為讀者提供最即時、高品質的新聞。"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /
+url: "https://ai-smart-news.github.io"
+baseurl: ""
 google_analytics: 'G-4XESGB3TDR'
 disqus: 'demowebsite'
 include: ["_pages"]
