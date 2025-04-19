@@ -115,7 +115,7 @@ description: "這是一篇測試的 AI 智能化新聞"
     )
 
     article = response.choices[0].message.content
-    time.sleep(5)
+    time.sleep(20)
 
     selected_provider = random.choice(providers)
     client = Client(provider = selected_provider)
@@ -138,7 +138,7 @@ image: {img_path}
 """
     
     content = article_format + article
-    time.sleep(5)
+    time.sleep(20)
 
     selected_provider = random.choice(providers)
     client = Client(provider = selected_provider)
