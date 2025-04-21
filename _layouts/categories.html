@@ -28,17 +28,17 @@ permalink: "/categories.html"
 <script>
   // 取得 URL hash (去掉前面的 #)
   const hash = decodeURIComponent(location.hash.slice(1)).toLowerCase();
-
+  console.log('exe1');
   if (hash) {
     const blocks = document.querySelectorAll('.card-group');
-    let found = false;
+    let found = false;console.log('exe2');
     blocks.forEach(block => {
       const cat = block.dataset.category.toLowerCase();
       if (cat === encodeURIComponent(hash)) {
-        block.style.display = 'block';
+        block.style.display = 'block';console.log('exe3');
         found = true;
       } else {
-        block.style.display = 'none';
+        block.style.display = 'none';console.log('exe4');
       }
     });
     if (!found) {
