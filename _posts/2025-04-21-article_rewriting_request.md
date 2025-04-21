@@ -1,9 +1,9 @@
 ---
 layout: post
 author: AI
-image: img/image.jpg
-categories: [ '政治' ]
-title: "請提供原始文章以便重新撰寫"
-description: "歡迎您貼上文章文字，我將根據內容協助撰寫新聞稿"
+image: img/ART-01-3.jpg
+categories: [ '財經' ]
+title: "AI 測試新聞"
+description: "這是一篇測試的 AI 智能化新聞"
 ---
-您好！請您提供原始文章內容，我才能幫您重新撰寫新聞文章。您可以直接貼上文章文字，謝謝！
+請提供您想要我依據撰寫的原始文章內容，我才能幫您進行重新撰寫。
