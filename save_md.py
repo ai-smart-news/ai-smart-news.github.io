@@ -63,8 +63,7 @@ def main():
     categories = [
         "政治", "經濟", "科技", "娛樂", "體育",
         "國際", "社會", "健康", "教育", "旅遊",
-        "財經", "房地產", "環保", "文化", "軍事",
-        "交通", "司法", "災難", "氣象", "美食"
+        "財經", "文化", "軍事", "交通", "氣象", "美食"
     ]
     
     selected = random.choice(categories)
@@ -99,13 +98,13 @@ def main():
     providers = [
         "Websim"]
     selected_provider = random.choice(providers)
-    client = Client(provider = selected_provider)
+    client = Client()
     md_format = """
 title:  "AI 測試新聞"
 description: "這是一篇測試的 AI 智能化新聞"
 """
     response = client.chat.completions.create(
-        model="gemini-1.5-pro",
+        model="gpt-4o",
         # messages=[{"role": "user", "content": f'請給我一則 AI 的科普文章，請隨機從 ML/DL/CV/NLP/LLM/Stable diffusion等各式AI領域，隨機選擇一個技術點，幫我撰寫一篇技術文章。請直接給我文章:'}],
         messages=[{"role": "user", "content": f'請依據此文章: {my_data[index]}，幫我重新撰寫一篇新聞文章，文章長度約600字，並將原始新聞出處移除，不要顯示任何出處或是作者資訊。請直接給我文章:'}],
 
@@ -113,12 +112,12 @@ description: "這是一篇測試的 AI 智能化新聞"
     )
 
     article = response.choices[0].message.content
-    time.sleep(20)
+    time.sleep(3)
 
     selected_provider = random.choice(providers)
-    client = Client(provider = selected_provider)
+    client = Client()
     response2 = client.chat.completions.create(
-        model="gemini-1.5-pro",
+        model="gpt-4o",
         messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請參考我這邊的資料格式：{md_format}，直接回傳依據文章調整的後面的值(不套用任何格式, 不要出現yaml)直接回傳資料格式字串: '}],
         # Add any other necessary parameters
     )
@@ -137,12 +136,12 @@ categories: [ '{selected}' ]
 """
     
     content = article_format + article
-    time.sleep(20)
+    time.sleep(3)
 
     selected_provider = random.choice(providers)
-    client = Client(provider = selected_provider)
+    client = Client()
     response3 = client.chat.completions.create(
-        model="gemini-1.5-pro",
+        model="gpt-4o",
         messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請簡單給我英文的字串檔名，例如:machine_leanring_introduction，不用回覆我任何說明訊息，請直接給我檔名:'}],
         # Add any other necessary parameters
     )
