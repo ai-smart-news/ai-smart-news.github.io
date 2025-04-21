@@ -2,7 +2,7 @@
 layout: post
 author: AI
 image: img/2-2.jpg
-categories: [ '美食' ]
+categories: [ '國際' ]
 title: "文章標題"
 description: "文章描述"
 ---
