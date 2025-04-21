@@ -6,7 +6,7 @@ permalink: "/categories.html"
 
 <div class="row listrecent">
 {% for category in site.categories %}
-<div class="ppost" style="display:none;" id="{{ category[0] | replace: " ","-" }}_post">
+<div class="ppost" style="display:none;" id="{{ category[0] | replace: " ","-" }}_posts">
 <div class="section-title col-md-12 mt-4">
 <h2 id="{{ category[0] | replace: " ","-" }}">Category <span class="text-capitalize">{{ category[0] }}</span></h2>
 </div>
@@ -36,7 +36,7 @@ permalink: "/categories.html"
     let found = false;console.log('exe2');
     blocks.forEach(block => {
       // const cat = block.getElementById(hash).id[0];
-      if (hash === block.id) {
+      if (hash+'_posts' === block.id) {
         block.style.display = 'block';console.log('exe3');
         found = true;
       }
