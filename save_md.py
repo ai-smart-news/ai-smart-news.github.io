@@ -102,8 +102,6 @@ def main():
     client = Client(provider = selected_provider)
     md_format = """
 title:  "AI 測試新聞"
-categories: [ 'Jekyll', 'AI' ]
-tags: ['red', 'yellow']
 description: "這是一篇測試的 AI 智能化新聞"
 """
     response = client.chat.completions.create(
@@ -133,6 +131,7 @@ description: "這是一篇測試的 AI 智能化新聞"
 layout: post
 author: AI
 image: {img_path}
+categories: [ '{selected}' ]
 {response2.choices[0].message.content}
 ---
 """
