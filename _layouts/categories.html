@@ -4,20 +4,41 @@ layout: default
 permalink: "/categories.html"
 ---
 
-<div class="row listrecent">
-{% for category in site.categories %}
-<div class="section-title col-md-12 mt-4">
-<h2 id="{{ category[0] | replace: " ","-" }}">Category <span class="text-capitalize">{{ category[0] }}</span></h2>
+<div class="row listrecent" id="category-container">
+  {% for category in site.categories %}
+    <div class="category-block" data-category="{{ category[0] | downcase | url_encode }}">
+      <div class="section-title col-md-12 mt-4">
+        <h2 id="{{ category[0] | replace: " ","-" }}">Category <span class="text-capitalize">{{ category[0] }}</span></h2>
+      </div>
+      {% assign pages_list = category[1] %}
+      {% for post in pages_list %}
+        {% if post.title != null %}
+          {% include postbox.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  {% endfor %}
 </div>
-{% assign pages_list = category[1] %}
-{% for post in pages_list %}
-{% if post.title != null %}
-{% if group == null or group == post.group %}
-{% include postbox.html %}
-{% endif %}
-{% endif %}
-{% endfor %}
-{% assign pages_list = nil %}
-{% assign group = nil %}
-{% endfor %}
-</div>
+
+<script>
+  // 取得 URL hash (去掉前面的 #)
+  const hash = decodeURIComponent(location.hash.slice(1)).toLowerCase();
+
+  if (hash) {
+    const blocks = document.querySelectorAll('.category-block');
+    let found = false;
+    blocks.forEach(block => {
+      const cat = block.dataset.category.toLowerCase();
+      if (cat === encodeURIComponent(hash)) {
+        block.style.display = 'block';
+        found = true;
+      } else {
+        block.style.display = 'none';
+      }
+    });
+    if (!found) {
+      // 若找不到對應分類，可選擇顯示全部或顯示提示
+      document.getElementById('category-container').innerHTML = `<p class="col-md-12 mt-4">查無分類：${hash}</p>`;
+    }
+  }
+</script>
