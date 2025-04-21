@@ -12,11 +12,13 @@ permalink: "/categories.html"
 </div>
 {% assign pages_list = category[1] %}
 {% for post in pages_list %}
+<div class="row">
 {% if post.title != null %}
 {% if group == null or group == post.group %}
 {% include postbox.html %}
 {% endif %}
 {% endif %}
+</div>
 {% endfor %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
