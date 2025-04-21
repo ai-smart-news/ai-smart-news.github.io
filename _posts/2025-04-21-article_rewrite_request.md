@@ -1,9 +1,9 @@
 ---
 layout: post
 author: AI
-image: img/hq720.jpg
-categories: [ '美食' ]
-title: "AI 智能化新聞測試"
-description: "本文為人工智慧技術應用的測試新聞範例"
+image: img/m_111112899464d5fec36bbe96.64386341.jpg
+categories: [ '國際' ]
+title: "請提供原始文章內容以便改寫"
+description: "請將您想改寫的文章內容提供給我，這樣我才能幫助撰寫新的新聞文章。"
 ---
-請提供您想要重新撰寫的文章內容，才能幫您完成新聞文章的撰寫。
+請提供您想要改寫的原始文章內容，我才能幫您撰寫新的新聞文章喔。
