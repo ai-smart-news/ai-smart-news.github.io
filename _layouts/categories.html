@@ -20,8 +20,8 @@ permalink: "/categories.html"
 {% endfor %}
 {% assign pages_list = nil %}
 {% assign group = nil %}
-{% endfor %}
 </div>
+{% endfor %}
 </div>
 
 
@@ -39,8 +39,6 @@ permalink: "/categories.html"
       if (hash === block.id) {
         block.style.display = 'block';console.log('exe3');
         found = true;
-      } else {
-        block.style.display = 'none';console.log('exe4');
       }
     });
     if (!found) {
