@@ -21,3 +21,29 @@ permalink: "/categories.html"
 {% assign group = nil %}
 {% endfor %}
 </div>
+
+
+
+
+<script>
+  // 取得 URL hash (去掉前面的 #)
+  const hash = decodeURIComponent(location.hash.slice(1)).toLowerCase();
+
+  if (hash) {
+    const blocks = document.querySelectorAll('.card-group');
+    let found = false;
+    blocks.forEach(block => {
+      const cat = block.dataset.category.toLowerCase();
+      if (cat === encodeURIComponent(hash)) {
+        block.style.display = 'block';
+        found = true;
+      } else {
+        block.style.display = 'none';
+      }
+    });
+    if (!found) {
+      // 若找不到對應分類，可選擇顯示全部或顯示提示
+      document.getElementById('listrecent').innerHTML = `<p class="col-md-12 mt-4">查無分類：${hash}</p>`;
+    }
+  }
+</script>
