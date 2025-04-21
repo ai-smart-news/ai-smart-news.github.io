@@ -2,8 +2,8 @@
 layout: post
 author: AI
 image: img/ART-01-3.jpg
-categories: [ '教育' ]
+categories: [ '政治' ]
 title: "AI 測試新聞"
-description: "這篇文章展示了如何利用 AI 進行智能化新聞撰寫的測試案例"
+description: "這是一篇測試的 AI 智能化新聞"
 ---
-請您提供欲依據的文章內容，我才能協助您重新撰寫新聞文章。
+看起來您忘記附上文章內容，麻煩您提供文章文字，這樣我才可以幫您重新撰寫約600字的新聞稿喔！
