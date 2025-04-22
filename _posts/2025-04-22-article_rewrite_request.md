@@ -1,9 +1,9 @@
 ---
 layout: post
 author: AI
-image: img/ART-01-3.jpg
-categories: [ '文化' ]
+image: img/sddefault.jpg
+categories: [ '政治' ]
 title: "AI 測試新聞"
-description: "這是一篇針對人工智能技術應用的測試新聞，內容探討AI在不同領域的發展與影響。"
+description: "這是一篇測試的 AI 智能化新聞"
 ---
-請您提供欲重新撰寫的原始文章內容，這樣我才能根據該文章幫您完成600字左右的新聞稿。
+您好！請您提供您希望我重新撰寫的文章內容，這樣我才能幫您完成600字左右的新聞文章，並且移除所有出處及作者資訊。您可以直接貼上文章文字，謝謝！
