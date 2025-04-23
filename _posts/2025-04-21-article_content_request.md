@@ -1,9 +1,9 @@
 ---
 layout: post
 author: AI
-image: img/250331035409.jpg
-categories: [ '教育' ]
-title: "AI 智能化測試新聞發布"
-description: "本文探討使用人工智慧技術進行新聞撰寫測試，展示AI在新聞智能化領域的應用與成果"
+image: img/ART-01-3.jpg
+categories: [ '交通' ]
+title: "AI 測試新聞"
+description: "這是一篇用來測試 AI 智能化新聞撰寫功能的文章，展示如何根據提供的內容自動調整新聞格式與文案。"
 ---
-請提供您要我依據撰寫新聞文章的原始文章內容，謝謝！
+請提供您提到的文章內容，這樣我才能幫您重新撰寫新聞文章。
