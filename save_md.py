@@ -192,7 +192,7 @@ description: "這是一篇測試的 AI 智能化新聞"
     article_format = f"""---
 layout: post
 author: AI
-image: {img_path}
+image: img/{img_path}
 categories: [ '{selected}' ]
 {response2.choices[0].message.content}
 ---
