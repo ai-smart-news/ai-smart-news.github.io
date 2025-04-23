@@ -13,6 +13,7 @@ g4f==0.5.1.4
 idna==3.10
 multidict==6.4.3
 nest-asyncio==1.6.0
+pillow==11.2.1
 propcache==0.3.1
 pycryptodome==3.22.0
 requests==2.32.3

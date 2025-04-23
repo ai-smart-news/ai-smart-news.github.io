@@ -9,6 +9,8 @@ import datetime
 import time
 import random
 
+from PIL import Image
+from io import BytesIO
 """
 ---
 layout: post
@@ -121,21 +123,12 @@ description: "這是一篇測試的 AI 智能化新聞"
         messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 請參考我這邊的資料格式：{md_format}，直接回傳依據文章調整的後面的值(不套用任何格式, 不要出現yaml)直接回傳資料格式字串: '}],
         # Add any other necessary parameters
     )
-    title = response2.choices[0].message.content.split('"')[1]
-    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',}
-    img_soup = image_search(title, headers)
-    img_path = save_img('img', extract_jpg_urls(str(img_soup))[1])
+    # title = response2.choices[0].message.content.split('"')[1]
+    # headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36',}
+    # img_soup = image_search(title, headers)
+    # img_path = save_img('img', extract_jpg_urls(str(img_soup))[1])
 
-    article_format = f"""---
-layout: post
-author: AI
-image: {img_path}
-categories: [ '{selected}' ]
-{response2.choices[0].message.content}
----
-"""
     
-    content = article_format + article
     time.sleep(3)
 
     selected_provider = random.choice(providers)
@@ -147,6 +140,64 @@ categories: [ '{selected}' ]
     )
     file_name_text = response3.choices[0].message.content.replace('/n','').replace(' ','').replace('\n','')
 
+    ########### 生成 生圖片提示詞 ############
+    time.sleep(3)
+    client = Client()
+    response4 = client.chat.completions.create(
+        model="gpt-4o",
+        messages=[{"role": "user", "content": f'依據我的文章內容: {article}, 幫我生成一張AI繪圖的簡短prompt(一句話) 請用英文：'}],
+        # Add any other necessary parameters
+    )
+    image_prompt = response4.choices[0].message.content
+    
+    ############ image generation ############
+
+    def gen_image_url(prompt):
+        url = f"https://pollinations.ai/p/{prompt}"
+        response = requests.get(url)
+        return response.content
+
+    # Open the image
+    image = Image.open(BytesIO(gen_image_url(image_prompt)))
+    
+    # Get the dimensions of the image
+    width, height = image.size
+    
+    # Step 1: Crop the bottom 10%
+    crop_height = int(height * 0.9)
+    cropped_image = image.crop((0, 0, width, crop_height))
+    
+    # Update dimensions after cropping
+    width, height = cropped_image.size
+    
+    # Step 2: Resize to 512 pixels on the longest side while maintaining aspect ratio
+    if width > height:
+        new_width = 512
+        new_height = int((height / width) * 512)
+    else:
+        new_height = 512
+        new_width = int((width / height) * 512)
+    
+    resized_image = cropped_image.resize((new_width, new_height), Image.Resampling.LANCZOS)
+    
+    # Save the final image
+    img_path = f'{file_name_text}.jpg'
+    resized_image.save('img/'+img_path)
+    
+    # Close the images
+    image.close()
+    cropped_image.close()
+    resized_image.close()
+
+    article_format = f"""---
+layout: post
+author: AI
+image: {img_path}
+categories: [ '{selected}' ]
+{response2.choices[0].message.content}
+---
+"""
+    content = article_format + article
 
     # 先定義要寫入的資料夾名稱
     folder_name = "_posts"
