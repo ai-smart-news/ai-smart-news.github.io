@@ -215,7 +215,6 @@ categories: [ '{selected}' ]
     # 組出完整路徑：myfolder/auto-file-YYYYMMDD-HHMMSS.md
     file_path = os.path.join(folder_name, filename)
 
-    if article
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(content)
 
