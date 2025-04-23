@@ -104,7 +104,11 @@ def main():
     md_format = """
 title:  "AI 測試新聞"
 description: "這是一篇測試的 AI 智能化新聞"
-"""
+""" 
+    ### 防止沒抓到新聞文章 ###
+    if len(my_data[index]) < 50:
+        return None
+    ### 防止沒抓到新聞文章 ###
     response = client.chat.completions.create(
         model="gpt-4o",
         # messages=[{"role": "user", "content": f'請給我一則 AI 的科普文章，請隨機從 ML/DL/CV/NLP/LLM/Stable diffusion等各式AI領域，隨機選擇一個技術點，幫我撰寫一篇技術文章。請直接給我文章:'}],
@@ -211,6 +215,7 @@ categories: [ '{selected}' ]
     # 組出完整路徑：myfolder/auto-file-YYYYMMDD-HHMMSS.md
     file_path = os.path.join(folder_name, filename)
 
+    if article
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(content)
 
