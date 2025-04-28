@@ -1,4 +1,4 @@
-name: Check Markdown Files
+name: Check Markdown Files in _posts
 
 on:
   workflow_dispatch:  # 僅允許手動觸發
@@ -11,26 +11,43 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 安裝 Node.js（用於 markdownlint）
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      # 安裝 Ruby 和 Jekyll 環境
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
         with:
-          node-version: '20'
+          ruby-version: '3.2'  # 根據你的 Jekyll 版本調整
+          bundler-cache: true
 
-      # 安裝 markdownlint-cli
-      - name: Install markdownlint
-        run: npm install -g markdownlint-cli
+      # 安裝 Jekyll 依賴
+      - name: Install Dependencies
+        run: bundle install
 
-      # 檢查所有 Markdown 文件，輸出錯誤到 error_md_lists.txt
-      - name: Run markdownlint
+      # 檢查 _posts 資料夾中的 Markdown 文件
+      - name: Check Jekyll Build for _posts
         run: |
-          markdownlint '**/*.md' --ignore node_modules > error_md_lists.txt 2>&1 || true
+          # 初始化 error_md_lists.txt
+          echo "" > error_md_lists.txt
+          
+          # 獲取 _posts 資料夾中的所有 Markdown 文件
+          find _posts -type f -name "*.md" > md_files.txt
+          
+          # 逐一檢查每個 Markdown 文件
+          while IFS= read -r file; do
+            # 模擬 Jekyll 建構，僅包含單個文件
+            if ! bundle exec jekyll build --strict --source . --include "$file" > build_log.txt 2>&1; then
+              # 如果建構失敗，記錄文件路徑
+              echo "$file" >> error_md_lists.txt
+            fi
+          done < md_files.txt
+          
+          # 檢查是否有錯誤文件
           if [ -s error_md_lists.txt ]; then
-            echo "Found Markdown errors. See error_md_lists.txt for details."
+            echo "Found problematic Markdown files. See error_md_lists.txt for details."
           else
-            echo "No Markdown errors found."
+            echo "No problematic Markdown files found in _posts."
             echo "No errors found." > error_md_lists.txt
           fi
+        continue-on-error: true
 
       # 提交 error_md_lists.txt 到專案目錄
       - name: Commit error_md_lists.txt
@@ -38,7 +55,7 @@ jobs:
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
           git add error_md_lists.txt
-          git commit -m "Add error_md_lists.txt from Markdown check"
+          git commit -m "Add error_md_lists.txt from _posts Markdown check"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
