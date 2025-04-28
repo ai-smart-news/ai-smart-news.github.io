@@ -1,34 +1,81 @@
-name: Check Markdown Files for Jekyll Compatibility
+name: Check Markdownv3` step is correctly specified.
+2. Verify that the version Files for Jekyll Compatibility
 
 on:
   push:
+ `v3` of `actions/upload-artifact` exists and is    branches:
+      - main
+  pull_request:
+
+jobs:
+ accessible.
+3. Update the workflow file to explicitly reference  check-md:
+    runs-on: ubuntu-latest
+    steps:
+ a valid version or commit SHA of the action.
+
+      # Checkout the repository
+      - name: Checkout code
+### Updated Workflow Example
+```yaml
+name: Check Markdown        uses: actions/checkout@v3
+
+      # Set up Files for Jekyll Compatibility
+
+on:
+  push:
+ Python environment
+      - name: Set up Python
     branches:
       - main
   pull_request:
 
 jobs:
-  check-md:
-    runs-on: ubuntu-latest
-    steps:
-      # Checkout the repository
-      - name: Checkout code
-        uses: actions/checkout@v3
-
-      # Set up Python environment
-      - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
 
-      # Install dependencies
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pyyaml
+      # Install dependencies  check-md:
+    runs-on: ubuntu-latest
+    steps:
 
-      # Run the Markdown check script
+      - name: Install dependencies
+        run      # Checkout the repository
+      - name: Checkout code: |
+          python -m pip install --upgrade pip
+
+        uses: actions/checkout@v3
+
+      # Set up          pip install pyyaml
+
+      # Run the Markdown check Python environment
+      - name: Set up Python
+ script
       - name: Run Markdown Checker
         run: |
+          python check_md.py
+
+      # Print error        uses: actions/setup-python@v4
+        with:
+ files if found
+      - name: Print Error Files (          python-version: '3.x'
+
+      # Install dependencies
+      - name: Install dependencies
+        runif any)
+        if: failure()
+        run: |
+          echo: |
+          python -m pip install --upgrade pip
+ "以下是有問題的 Markdown 檔案，請修正："
+          cat error_files          pip install pyyaml
+
+      # Run the Markdown check.txt || echo "沒有錯誤檔案！"
+
+      # Always upload error script
+      - name: Run Markdown Checker
+        run files as artifacts
+      - name: Upload Error Files: |
           python check_md.py
 
       # Print error files if found
@@ -36,12 +83,11 @@ jobs:
         if: failure()
         run: |
           echo "以下是有問題的 Markdown 檔案，請修正："
-          cat error_files.txt || echo "沒有錯誤檔案！"
-
-      # Always upload error files as artifacts
-      - name: Upload Error Files
+          cat error_files
         if: always()
         uses: actions/upload-artifact@v3
         with:
           name: error-files
-          path: error_files.txt
+.txt || echo "沒有錯誤檔案！"
+
+      # Always upload error          path: error_files.txt
