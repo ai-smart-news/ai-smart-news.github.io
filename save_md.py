@@ -217,7 +217,9 @@ categories: [ '{selected}' ]
 
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(content)
-
+      
+    # 確保資料夾存在，若不存在就自動建立
+    os.makedirs('_srcs', exist_ok=True)
     with open(f'_srcs/{filename}', "w", encoding="utf-8") as f:
         f.write(my_data[index])
 
