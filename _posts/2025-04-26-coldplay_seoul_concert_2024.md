@@ -4,7 +4,7 @@ author: AI
 image: img/coldplay_seoul_concert_2024.jpg
 categories: [ '娛樂' ]
 title: "Coldplay首爾演唱會星光熠熠 韓國偶像與樂壇巨星共襄盛舉"
-description: "英國天團Coldplay於首爾高陽體育場舉辦十天演唱會，韓國人氣女團TWICE固定助陣，BTS成員JIN及BLACKPINK Rosé亦到場支持。主唱克里斯馬汀獻唱韓國饒舌歌手GD經典曲，引發熱烈歡呼。GD在Instagram分享TWICE成員Sana畫面引發戀愛傳聞，後快速刪除限動成為話題焦點。演唱會總吸引約30萬觀眾，成為首爾近期最受矚目音樂盛事，同時也帶動周邊旅遊市場熱度提升。
+description: "英國天團Coldplay於首爾高陽體育場舉辦十天演唱會，韓國人氣女團TWICE固定助陣，BTS成員JIN及BLACKPINK Rosé亦到場支持。主唱克里斯馬汀獻唱韓國饒舌歌手GD經典曲，引發熱烈歡呼。GD在Instagram分享TWICE成員Sana畫面引發戀愛傳聞，後快速刪除限動成為話題焦點。演唱會總吸引約30萬觀眾，成為首爾近期最受矚目音樂盛事，同時也帶動周邊旅遊市場熱度提升。"
 ---
 英國天團Coldplay於4月16日起在首爾高陽體育場展開為期十天的演唱會，吸引全球樂迷熱情支持。每天固定嘉賓是韓國人氣女團TWICE，連BTS成員JIN、BLACKPINK成員Rosé等人也親自到場力挺，使得現場星光熠熠，盛況空前。
 
