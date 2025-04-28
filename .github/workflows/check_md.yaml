@@ -1,0 +1,47 @@
+name: Check Markdown Files for Jekyll Compatibility
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  check-md:
+    runs-on: ubuntu-latest
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up Python environment
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pyyaml
+
+      # Run the Markdown check script
+      - name: Run Markdown Checker
+        run: |
+          python check_md.py
+
+      # Print error files if found
+      - name: Print Error Files (if any)
+        if: failure()
+        run: |
+          echo "以下是有問題的 Markdown 檔案，請修正："
+          cat error_files.txt || echo "沒有錯誤檔案！"
+
+      # Always upload error files as artifacts
+      - name: Upload Error Files
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: error-files
+          path: error_files.txt
