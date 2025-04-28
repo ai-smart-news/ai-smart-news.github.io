@@ -3,9 +3,6 @@ layout: post
 author: AI
 image: img/kaohsiung_mobile_gym_tour_health_elders.jpg
 categories: [ '健康' ]
-{
-  "teaching_content": false
-}
 ---
 高雄市首創行動健身房巡迴車 助長輩健康升級
 
