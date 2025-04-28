@@ -11,11 +11,12 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      # 安裝 Ruby 和 Jekyll 環境
+      # 安裝 Ruby 環境
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'  # 根據你的 Jekyll 版本調整
+          ruby-version: '3.2'  # Ruby 3.2.8
+          bundler: '2.5.22'   # 使用與 Ruby 3.2 相容的 Bundler 版本
           bundler-cache: true
 
       # 安裝 Jekyll 依賴
