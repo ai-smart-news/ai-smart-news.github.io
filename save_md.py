@@ -218,6 +218,9 @@ categories: [ '{selected}' ]
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(content)
 
+    with open(f'_srcs/{filename}', "w", encoding="utf-8") as f:
+        f.write(my_data[index])
+
     print(f"File saved to: {file_path}")
 
 if __name__ == "__main__":
