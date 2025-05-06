@@ -192,13 +192,23 @@ description: "這是一篇測試的 AI 智能化新聞"
     image.close()
     cropped_image.close()
     resized_image.close()
-
-    article_format = f"""---
+   
+    if response2.choices[0].message.content.endswith('"'):
+        article_format = f"""---
 layout: post
 author: AI
 image: img/{img_path}
 categories: [ '{selected}' ]
 {response2.choices[0].message.content}
+---
+"""
+    else:
+        article_format = f"""---
+layout: post
+author: AI
+image: img/{img_path}
+categories: [ '{selected}' ]
+{response2.choices[0].message.content}"
 ---
 """
     content = article_format + article
