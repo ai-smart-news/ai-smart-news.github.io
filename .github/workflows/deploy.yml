@@ -16,26 +16,35 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
+          bundler-cache: true # Cache dependencies for faster builds
 
-      - name: Install dependencies
+      - name: Install Dependencies
         run: |
-          gem install bundler
+          gem install bundler -v 2.5.18 # Compatible with Ruby 3.2 and Jekyll 3.8.5
           bundle install
 
-      - name: Check Markdown files
+      - name: Install markdownlint
+        run: npm install -g markdownlint-cli
+
+      - name: Check Markdown Files
         run: |
-          npm install -g markdownlint-cli
           markdownlint ./**/*.md > markdownlint-report.txt || true
           grep -E "MD" markdownlint-report.txt | awk '{print $2}' | sed 's/:.*//' | sort | uniq > problematic_files.txt
 
-      - name: Update _config.yml with problematic files
+      - name: Update _config.yml with Problematic Files
         run: |
-          echo "exclude:" >> _config.yml
+          # Ensure exclude section exists or append it
+          if ! grep -q "^exclude:" _config.yml; then
+            echo "exclude:" >> _config.yml
+          fi
+          # Append problematic files to exclude list
           while IFS= read -r file; do
-            echo "  - $file" >> _config.yml
+            if ! grep -Fx "  - $file" _config.yml; then
+              echo "  - $file" >> _config.yml
+            fi
           done < problematic_files.txt
 
-      - name: Build Jekyll site
+      - name: Build Jekyll Site
         run: bundle exec jekyll build
 
       - name: Deploy to GitHub Pages
