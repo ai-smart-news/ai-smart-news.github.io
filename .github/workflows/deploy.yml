@@ -15,7 +15,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.1' # Use Ruby 3.1 to avoid untaint error
+          ruby-version: '2.7' # Use Ruby 2.7 for compatibility with ruby_dep 1.5.0
           bundler-cache: true # Cache dependencies for faster builds
 
       - name: Install Dependencies
