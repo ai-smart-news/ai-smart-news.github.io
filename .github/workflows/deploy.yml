@@ -15,12 +15,13 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'
+          ruby-version: '3.1' # Use Ruby 3.1 to avoid untaint error
           bundler-cache: true # Cache dependencies for faster builds
 
       - name: Install Dependencies
         run: |
-          gem install bundler -v 2.5.18 # Compatible with Ruby 3.2 and Jekyll 3.8.5
+          gem install bundler -v 2.0.1 # Match Gemfile.lock
+          bundle config set --local path 'vendor/bundle'
           bundle install
 
       - name: Install markdownlint
