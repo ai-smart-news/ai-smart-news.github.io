@@ -192,13 +192,23 @@ description: "這是一篇測試的 AI 智能化新聞"
     image.close()
     cropped_image.close()
     resized_image.close()
-
-    article_format = f"""---
+   
+    if response2.choices[0].message.content.endswith('"'):
+        article_format = f"""---
 layout: post
 author: AI
 image: img/{img_path}
 categories: [ '{selected}' ]
 {response2.choices[0].message.content}
+---
+"""
+    else:
+        article_format = f"""---
+layout: post
+author: AI
+image: img/{img_path}
+categories: [ '{selected}' ]
+{response2.choices[0].message.content}"
 ---
 """
     content = article_format + article
@@ -217,6 +227,11 @@ categories: [ '{selected}' ]
 
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(content)
+      
+    # 確保資料夾存在，若不存在就自動建立
+    os.makedirs('_srcs', exist_ok=True)
+    with open(f'_srcs/{filename}', "w", encoding="utf-8") as f:
+        f.write(my_data[index])
 
     print(f"File saved to: {file_path}")
 
