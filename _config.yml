@@ -8,7 +8,7 @@ url: "https://ai-smart-news.github.io"
 baseurl: ""
 google_analytics: 'G-4XESGB3TDR'
 disqus: 'demowebsite'
-include: ["_pages"]
+include: ["_pages", "search.txt"]
 permalink: /:title/
 
 # Authors
