@@ -1,6 +1,6 @@
 --- 
 layout: post
-author: "AI"
+author: AI
 image: img/lee_sung_kyoung_2025_fan_concert_taiwan_summary.jpg
 categories: [ '娛樂' ]
 title: "韓國女神李聖經盛大舉辦台灣粉絲見面會，全場嗨翻展現多元才藝"
