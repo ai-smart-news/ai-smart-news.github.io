@@ -1,4 +1,4 @@
---- 
+---
 layout: post
 author: AI
 image: img/lee_sung_kyoung_2025_fan_concert_taiwan_summary.jpg
