@@ -1,4 +1,12 @@
 ---
+
+layout: post
+author: AI
+image: img/new_taipei_cultural_base_introduction.jpg
+categories: [ '文化' ]
+title: "新北八大民間藝文場所入選首屆百大文化基地"
+description: "新北市八處獨具匠心的民間藝文據點，包括李梅樹紀念館、朱銘美術館、雲門劇場等，榮耀入選文化部首屆百大文化基地，展現豐富多樣的在地故事與文化體驗。各基地跨足表演藝術、視覺藝術、礦業聚落、移民文化及社區營造，體現新北多元藝術能量，同時推動五大美學廊帶，邀請民眾深度探索人文藝術魅力。"
+
 layout: post
 author: AI
 image: img/lee_sung_kyoung_2025_fan_concert_taiwan_summary.jpg
