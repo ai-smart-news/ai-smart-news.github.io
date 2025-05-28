@@ -17,7 +17,8 @@ layout: post
 author: AI
 image: assets/images/11.jpg
 """
-
+import pytz
+tz = pytz.timezone('Asia/Taipei')
 
 def news_search(keyword, start_date, end_date, n_page):
   headers = {
@@ -71,7 +72,7 @@ def main():
     selected = random.choice(categories)
     my_data = []
     
-    cur_day = datetime.date.today()
+    cur_day = datetime.datetime.now(tz).date()
     one_day_ago = datetime.timedelta(days=1)
     last_day = cur_day - one_day_ago
     
@@ -219,7 +220,7 @@ categories: [ '{selected}' ]
     os.makedirs(folder_name, exist_ok=True)
 
     # 以當前時間做為檔名一部分，以避免重名
-    now_str = datetime.datetime.now().strftime("%Y-%m-%d")
+    now_str = datetime.datetime.now(tz).strftime("%Y-%m-%d")
     filename = f"{now_str}-{file_name_text}.md"
 
     # 組出完整路徑：myfolder/auto-file-YYYYMMDD-HHMMSS.md
