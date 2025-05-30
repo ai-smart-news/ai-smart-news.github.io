@@ -203,6 +203,15 @@ categories: [ '{selected}' ]
 {response2.choices[0].message.content}
 ---
 """
+    elif response2.choices[0].message.content.endswith('"\n'):
+        article_format = f"""---
+layout: post
+author: AI
+image: img/{img_path}
+categories: [ '{selected}' ]
+{response2.choices[0].message.content}
+---
+""" 
     else:
         article_format = f"""---
 layout: post
