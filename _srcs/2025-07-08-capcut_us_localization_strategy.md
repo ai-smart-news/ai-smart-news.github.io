@@ -1,0 +1,1 @@
+據《Business Insider》周一報道，TikTok母公司字節跳動計劃推出一個專為美國市場設計的編輯應用程式CapCut，該款名為「CapCut US」新應用程式將會將美國用戶的數據和操作與更廣泛的平台分隔開。(to/s)相關內容特朗普稱日內與中方洽購TikTok並有機會訪華AASTOCKS新聞
