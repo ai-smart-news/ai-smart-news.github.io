@@ -1,0 +1,1 @@
+迪倫·桑伯格（Dylan Samberg）避免了工資仲裁聽證會，並與溫尼伯噴氣機（Winnipeg Jets）簽署了三年合同的延期。儘管該團隊沒有用財務披露，但幾家媒體報導說，其價值1725萬美元（每年價值575萬美元）。26歲的桑伯格（Samberg）在上個賽季的60場比賽中獲得了最佳的總職業（6），積分（20）和Plus/Minus評分（加上34）。他在13場季后賽中增加了3個幫助。自Winnipeg在2017年NHL項目的第二輪中選出以來，他在216場職業比賽中總共獲得了51分（9個進球，42個助手）。Save my name, email, and website in this browser for the next time I comment.
