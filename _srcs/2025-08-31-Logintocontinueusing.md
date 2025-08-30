@@ -1,1 +1,8 @@
-反對黨週日批評了洪水政府的AAM AADMI黨（AAP）政府，這使許多受害者的困境惡化了。強調了Kharaar，Kori，Niagawan和BJP高級領導人兼旁遮普邦政府媒體負責人Majri Block村莊的局勢，他週六說：“旁遮普邦的洪水可能部分憤怒，但不當行為的不當行為是完整的。”他說，當地的MLA Anmol Gagen Mann失敗了他的選區。喬希說：“夏天沒有水，季風的洪水淹沒了……人們正在遭受痛苦，MLAS失踪了。”他補充說，居民面臨削減，水短缺和污水處理。水裂一直殘疾，包括Kharl-Landran Road，Najjar Road和Shivelic City Stretch。在許多殖民地中，水持續數週。 Kori的Nagar Khera Chowk，Fara Chowk，Mata Rani Chowk和主要的集市被淹沒，而在尼貢的Nadda，Nadda，Kurran，Canal，Canal，其他河流和其他河流變成河流之後。Majri Block面對Mirzapur，Abipur，Gochar，Tarapur，Khazar Abad，警察局Gobindgarh，Sangatpura，Palanpur，Kartarpur，Kartarpur，Teda，Siaba Majri，Siaba Majri，Potol Indidine道路上的村莊，村莊。 Jayanti Majri有一個從Guda Casoli，從Kurran到Tanda -20的Link道路和New Chandigarh的Eco City的鏈接。喬希（Joshi）要求旁遮普政府“提供直接的援助並恢復電力，水和道路等基本設施”。Shermani Akali Dal（CAD）也襲擊了旁遮普邦，並指責他在災難時放棄了洪水受害者。Sad發言人Shamsher Purkhalavi說：“洪水造成了破壞，但政府拒絕了其責任。”他提醒他，幾個月前，灌溉部長Verinder Kumar Goyal博士向大會保證，季風降雨不會受到傷害。他補充說：“今天，數百個村莊溺水，莊稼被摧毀，牛丟了，甚至軍隊也被要求救濟。”發言人針對首席部長巴格萬特·曼恩（Bhagwant Mann）說：“今天旁遮普邦只有上帝的憐憫才活著。地球上沒有政府的跡象。人們在社交媒體上懇求，但沒有與受害者站在一起，而是失踪了。”普爾卡拉維（Purkhalavi）強調，悲傷的總統蘇克比爾·辛格·巴達爾（Sukhbir Singh Badal）本人參觀了Ferozepur，Tarn Tarn和Sultanpur Lodhi的洪水沖動地區，該地區提供了泵，發電機和JCB機器等必要的商品。該黨已經向農民和工人分發了30,000升柴油，以修理背部，駕駛拖拉機和手推車。此外，Gurdwaras還提供口糧，藥品和住所設施。Akali Dal還於8月31日取消了其默認的“ Fateh Rally”，並指示黨的工人專注於救濟工作。要求賠償，普爾卡拉維呼籲政府授予盧比。他說：“即使在過去的洪水中，也承諾了賠償，但從未兌現。”發言人補充說：“現在，人民的最大希望是與Akali Dil和SGPC一起，因為我們始終與他們危機，而該政府只會做出諾言和欺詐。”Save my name, email, and website in this browser for the next time I comment.
+
+2025-08-30樂透彩中獎號碼
+
+                                
+114年 05~06月統一發票中獎號碼
+                             
+2025-08-31空氣品質指標
+                              提供全台各地區一週天氣預報！和今天空氣品質指標查詢。午後雷陣雨各地豪雨大雨特報、颱風動態、炎夏高溫等各地新聞。掌握即時天氣資訊，做好防範措施
