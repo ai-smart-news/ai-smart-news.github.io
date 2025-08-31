@@ -1,1 +1,1 @@
-中評社台北電／賴清德總統29日接見美國聯邦參議院軍事委員會主席維克（Roger　Wicker）與參議員費雪（Deb　Fischer）時表示，這是軍委會主席相隔9年再度來訪，感謝用具體的行動表達對台灣的強烈支持，並強調會持續提升防禦能力，確保台海的和平穩定，明年度的國防預算將占比GDP3%，預計在2030年前，占比比照北約標準達GDP5%。國聯邦參議院軍事委員會主席維克、參議員費雪訪台，外交部政務次長陳明祺、AIT處長谷立言前往接機。（照片：AIT臉書）
+Save my name, email, and website in this browser for the next time I comment.
