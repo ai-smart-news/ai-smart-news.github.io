@@ -1,14 +1,1 @@
-The owner of this website (newstaiwan.net) has banned the autonomous system number (ASN) your IP address is in (8075) from accessing this website.
-                            Please see
-                            https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1005/
-                            for more details.
-                        
-Cloudflare Ray ID: 97804a23e988e417
-•
-
-        Your IP:
-        Click to reveal
-64.236.143.209
-•
-
-Performance & security by Cloudflare
+美國參議院軍事委員會主席、台灣的堅定支持者羅傑‧維克（Roger Wicker）周六（8月30日）表示，他認為未來美國和台灣將聯合生產武器。川普总統今年初上任以來，美台之間尚未宣佈新的武器銷售。（德國之聲中文網）美國參議院軍事委員會主席、台灣的堅定支持者羅傑‧維克（Roger Wicker）周六（8月30日）表示，他認為未來美國和台灣將聯合生產武器，這是台北方面一直推動的目標。儘管美國與台灣沒有正式外交關係，但美國是台灣最重要的國際支持者和武器供應商。然而，川普总統今年初上任以來，美台之間尚未宣佈新的武器銷售。周六在台北舉行的新聞發布會上，當被問及包括無人機在內的武器聯合生產前景時，維克表示樂觀。「我認為將會進行聯合生產和共同努力，這將取決於太平洋兩岸的這兩地之間的技能水準，實際上我們對這方面的建議和創新持開放態度，」他在為期兩天的訪問結束時說，此行他與台灣總統賴清德進行了會晤。To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video維克是美國國會中支持台灣最為堅定的議員之一。中國政府經常譴責華盛頓對台北的支持今年7月，中國駐美大使館曾要求維克等人取消訪台行程。根據美國在台協會（AIT）發布的聲明，美國國會代表團與台灣高層領袖進行一系列會談，討論美台關係、區域安全、貿易與投資，以及其他與雙方利益相關的重要議題。維克此次訪台正值台灣對美出口面臨20%關稅之際，這是川普对全球許多地區實施的廣泛新貿易政策的一部分。「這絲毫不影響美國的防務聯盟、友誼以及對台灣人民享有民主主權的支持決心，」他說。最近，美國部分國會議員——包括川普的共和黨同僚和民主黨議員——擔心川普在與中國談判貿易協議時淡化安全問題。有政府官員表示，川普在推行貿易議程及與習近平主席保持良好個人關係的同時，仍完全致力於亞太地區的安全事務 。美國在台協會聲明稱，美國國會代表團此行凸顯出「美國正致力強化與台灣的夥伴關係，並再次確認了美台對強化自由開放的印太地區的共同承諾。」To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video中國宣稱民主治理的台灣為其領土，堅持不承諾放棄使用武力控制台灣。近年來，中國對台灣的軍事和政治壓力不斷增加。DW中文有Instagram！歡迎搜尋dw.chinese，看更多深入淺出的圖文與影音報導。© 2025年德國之聲版權聲明：本文所有內容受到著作權法保護，如無德國之聲特別授權，不得擅自使用。任何不當行為都將導致追償，並受到刑事追究。
