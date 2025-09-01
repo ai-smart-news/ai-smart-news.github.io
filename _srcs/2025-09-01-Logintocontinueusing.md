@@ -1,6 +1,1 @@
-
-2025-08-30樂透彩中獎號碼
-
-                                
-114年 05~06月統一發票中獎號碼
-                             
+今年 8 月，澳洲多地先後出現極端天氣：雪梨及東岸則出現破紀錄降雨，8 月尚未結束時，雪梨的雨量已達月平均的 4 倍。 Source: AAP / DEAN LEWINS/AAPIMAGE訂閱即表示你同意SBS的服務使用條款及私隱保障政策，包括接收來自SBS的電子郵件通訊。SBS acknowledges the Traditional Custodians of Country and their connections and continuous care for the skies, lands and waterways throughout Australia.
