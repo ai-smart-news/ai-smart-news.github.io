@@ -2,8 +2,8 @@
 layout: post
 author: AI
 image: img/Logintocontinueusing.jpg
-categories: [ '文化' ]
+categories: [ '科技' ]
 title:  "Login to continue using"
-description: "請登入以繼續使用服務"
+description: "這是一篇關於登入以便繼續使用服務的文章"
 ---
 Login to continue using
