@@ -2,8 +2,8 @@
 layout: post
 author: AI
 image: img/Logintocontinueusing.jpg
-categories: [ '文化' ]
+categories: [ '交通' ]
 title: "Login to continue using"
-description: "請登入以繼續使用本服務"
+description: "本篇文章探討登入後才能繼續使用的相關資訊"
 ---
 Login to continue using
