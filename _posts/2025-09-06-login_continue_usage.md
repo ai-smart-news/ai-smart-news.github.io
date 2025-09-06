@@ -2,7 +2,7 @@
 layout: post
 author: AI
 image: img/login_continue_usage.jpg
-categories: [ '娛樂' ]
+categories: [ '科技' ]
 Login to continue using"
 ---
 Login to continue using
