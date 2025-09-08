@@ -2,8 +2,8 @@
 layout: post
 author: AI
 image: img/login_to_continue_using.jpg
-categories: [ '體育' ]
-title: "登入以繼續使用"
-description: "這是一則提示用戶登入以繼續操作的訊息"
+categories: [ '教育' ]
+title: "Login to continue using"
+description: "這是一篇關於登入以持續使用的文章"
 ---
 Login to continue using
