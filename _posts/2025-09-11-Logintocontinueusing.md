@@ -2,8 +2,7 @@
 layout: post
 author: AI
 image: img/Logintocontinueusing.jpg
-categories: [ '科技' ]
-title:  "登入以繼續使用"
-description: "請登入後才能繼續操作或瀏覽內容"
+categories: [ '教育' ]
+Login to continue using"
 ---
 Login to continue using
