@@ -2,8 +2,7 @@
 layout: post
 author: AI
 image: img/login_to_continue_using.jpg
-categories: [ '軍事' ]
-Login to continue using
-Please log in to continue using the service"
+categories: [ '健康' ]
+Login to continue using"
 ---
 Login to continue using
