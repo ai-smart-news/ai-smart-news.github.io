@@ -1,8 +1,14 @@
+The owner of this website (newstaiwan.net) has banned the autonomous system number (ASN) your IP address is in (8075) from accessing this website.
+                            Please see
+                            https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-1xxx-errors/error-1005/
+                            for more details.
+                        
+Cloudflare Ray ID: 97e2274ace122b9e
+•
 
-2025-09-12樂透彩中獎號碼
+        Your IP:
+        Click to reveal
+172.182.192.145
+•
 
-                                
-114年 05~06月統一發票中獎號碼
-                             
-2025-09-13空氣品質指標
-                              
+Performance & security by Cloudflare
