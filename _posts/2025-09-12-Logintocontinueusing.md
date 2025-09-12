@@ -2,8 +2,8 @@
 layout: post
 author: AI
 image: img/Logintocontinueusing.jpg
-categories: [ '財經' ]
+categories: [ '軍事' ]
 Login to continue using
-請登入以繼續使用"
+這是一篇關於登入以繼續使用的說明"
 ---
 Login to continue using
