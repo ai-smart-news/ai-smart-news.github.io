@@ -2,8 +2,8 @@
 layout: post
 author: AI
 image: img/login_to_continue_using.jpg
-categories: [ '經濟' ]
-請先登入以繼續使用
-此內容需登入才能閱讀"
+categories: [ '體育' ]
+title: "Login to continue using"
+description: "請登入以繼續使用本服務"
 ---
 Login to continue using
