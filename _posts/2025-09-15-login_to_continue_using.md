@@ -2,8 +2,7 @@
 layout: post
 author: AI
 image: img/login_to_continue_using.jpg
-categories: [ '體育' ]
-請登入以繼續使用
-這是一篇測試的 AI 智能化新聞"
+categories: [ '旅遊' ]
+Login to continue using"
 ---
 Login to continue using
