@@ -2,7 +2,8 @@
 layout: post
 author: AI
 image: img/Logintocontinueusing.jpg
-categories: [ '美食' ]
-Login to continue using"
+categories: [ '旅遊' ]
+Login to continue using
+請登入以繼續使用此服務"
 ---
 Login to continue using
