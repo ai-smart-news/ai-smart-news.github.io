@@ -1,1 +1,1 @@
-您使用的瀏覽器版本較舊，已不再受支援。建議您更新瀏覽器版本，以獲得最佳使用體驗。請在瀏覽器上啟用JavaScript來瀏覽頁面中的所有內容。
+Copyright © 2025 China Times Group All Rights Reserved. Web design by FT.
