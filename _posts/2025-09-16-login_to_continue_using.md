@@ -4,6 +4,6 @@ author: AI
 image: img/login_to_continue_using.jpg
 categories: [ '教育' ]
 Login to continue using
-請登入以繼續使用本服務"
+請登入以繼續使用"
 ---
 Login to continue using
