@@ -2,8 +2,8 @@
 layout: post
 author: AI
 image: img/login_to_continue_using.jpg
-categories: [ '軍事' ]
-Login to continue using
-請登入以繼續使用"
+categories: [ '政治' ]
+title: "Login to continue using"
+description: "這是一篇測試的 AI 智能化新聞"
 ---
 Login to continue using
