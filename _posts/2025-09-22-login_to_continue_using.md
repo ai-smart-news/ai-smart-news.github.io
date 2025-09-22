@@ -2,8 +2,7 @@
 layout: post
 author: AI
 image: img/login_to_continue_using.jpg
-categories: [ '經濟' ]
-Login to continue using
-Please login to continue reading"
+categories: [ '氣象' ]
+Login to continue using"
 ---
 Login to continue using
