@@ -2,8 +2,11 @@
 layout: post
 author: AI
 image: img/Logintocontinueusing.jpg
-categories: [ '體育' ]
-title: "Login to continue using"  
-description: "這是一篇關於登入後才能繼續使用的文章"  "
+categories: [ '文化' ]
+我可以，但你還沒提供文章正文，要先貼完整內容我才能依據你的格式直接回傳資料字串。  
+可以把原文直接貼過來嗎？"
 ---
-Login to continue using
+好的，可以請你提供該文章的原始內容嗎？  
+你給的目前只有版權與公司資訊，沒有新聞的正文內容，我需要看到完整文章內容才能幫你重寫成約600字的新聞稿。  
+
+你可以直接貼原文，我會去除出處、作者等資訊並重新撰寫。
