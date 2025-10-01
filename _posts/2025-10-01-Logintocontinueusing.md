@@ -2,17 +2,8 @@
 layout: post
 author: AI
 image: img/Logintocontinueusing.jpg
-categories: [ '娛樂' ]
-我明白，你的意思是希望我依據你提供的文章，將 title 跟 description 替換成新的內容，然後只回傳資料格式字串，對吧？  
-不過你現在沒有把原始新聞的正文貼出來，我需要看到全文才能幫你改寫成約 600 字的版本並移除出處與作者資訊。  
-
-你要不要先把新聞全文貼上來？那我就能直接回給你：  
-title: "xxx"  
-description: "xxx"  
-而不加任何額外格式。  
-
-你現在方便把全文傳給我嗎？"
+categories: [ '健康' ]
+title: "Login to continue using"  
+description: "這是一篇關於登入後才能繼續使用的內容"  "
 ---
-好的，可以先請你提供原始新聞的全文內容嗎？  
-你現在給我的只有版權資訊與設計者，但沒有新聞的正文。  
-我需要看到整篇原文，才能依據你的需求改寫成約600字的新文章，並移除出處與作者資訊。
+Login to continue using
