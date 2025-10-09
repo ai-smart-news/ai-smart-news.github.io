@@ -2,7 +2,12 @@
 layout: post
 author: AI
 image: img/Logintocontinueusing.jpg
-categories: [ '社會' ]
+categories: [ '娛樂' ]
 Login to continue using"
 ---
-Login to continue using
+好的，可以先請你將「此文章」的完整內容貼給我嗎？  
+目前你只提供了文章的版權宣告，並沒有實際的新聞內容。如果我沒有看到原文，就無法進行改寫、維持資訊正確性、或延伸至你需要的約600字的版本。  
+
+你將新聞全文貼上後，我就能幫你把來源移除、重新整理內容，寫成流暢、延伸細節的600字新聞稿。  
+
+要我先幫你準備一個可改寫成新聞稿的框架方便接下來處理嗎？
