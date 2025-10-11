@@ -1,1 +1,13 @@
-【彭博】-- 美中貿易緊張局勢升溫衝擊金融市場。隨著投資者湧向美債和黃金等避險資產，美國主要股指周五重挫。標普500指數下跌2.7%，創4月10日以來最大單日跌幅，並抹去本周全部漲幅那斯達克100指數重挫3.5%。美股科技七巨頭指數跌3.8%，特斯拉和亞馬遜領跌，輝達跌近5%華爾街的主要恐慌指標VIX自4月以來首次突破20，而這一水平通常預示著市場承受的壓力不斷加大美國總統川普威脅將「巨幅提高」對華商品關稅，並表示「沒理由」與中國國家主席習近平會晤，此番言論重新點燃投資者對貿易戰升級的擔憂「這顯然不是交易員想聽到的。市場迅速變得難看，」Interactive Brokers的Steve Sosnick在的報告中寫道。「市場的反應既反映了政策影響，也揭示了近期投資者的自滿情緒」標普500指數中超過420只股票下跌，占比約84%，11個板塊中有10個收跌自4月美國關稅引發的市場暴跌以來，美國股市在AI熱潮和聯儲會降息預期的支撐下飆升，導致給壞消息留下的緩衝空間很小「這對全球供應鏈而言是一個非常危險的時刻，包括支撐人工智能產業的供應鏈，」22V Research的Michael Hirson和Houze Song表示原文標題S&P 500 Drops Most in Six Months on Trump Tariff Spat With ChinaS&P 500 Drops Most in Six Months on Trump Tariff Spat With ChinaUS Stocks Extend Drop as Trump Escalates Spat With China (1)--聯合報導 Denitsa Tsekova、Vildana Hajric.More stories like this are available on bloomberg.com
+國慶典禮最後，由空軍雷虎小組駕駛「勇鷹」高教機，以五機編隊，施放「紅、藍、白」三色彩煙，通過總統府上空，展現國軍守護家園的決心，也為國慶大會畫下圓滿句點。（軍聞社陳軍均）國防部軍事新聞通訊社版權所有 © 2020 Military News Agency. All rights reserved.
+地址：100012 臺北市中正區信義路一段三號九樓
+               
+              交通位置
+
+電話：(02)2395-1723 傳真電話：(02)2395-1365 服務時間：周一至周五08：00~22：00
+隱私權宣告
+資訊安全政策
+            
+網站資料開放宣告
+更新日期：
+114/10/11            
+             | 瀏覽人數：75,073,395
