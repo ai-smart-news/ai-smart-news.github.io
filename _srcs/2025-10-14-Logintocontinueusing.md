@@ -1,1 +1,1 @@
-Save my name, email, and website in this browser for the next time I comment.
+德國聯邦統計局公布，德國9月消費物價指數(CPI)終值確認按年升2.4%，與初值相同，符市場預期；前值(8月)升2.2%。按月確認升0.2%，亦符預期。經歐盟標準調和後，德國9月調和後消費物價指數(HICP)終值確認按年升2.4%，與初值相同，符市場預期。按月確認升0.2%，亦符預期。(da/w)AASTOCKS新聞
