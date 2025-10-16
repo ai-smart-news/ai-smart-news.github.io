@@ -1,5 +1,1 @@
-Unity Software(U.US) reported fourth-quarter financial results after the market close on Monday. Here's a rundown of the report.Q4 
-    Earnings: Unity said fourth-quarter revenue increased 35% year-over-year to $609 million, beating the consensus estimate of $562.71 million.
-    The company reported a quarterly loss of 66 cents per share.
-                使用瀏覽器的分享功能，分享給你的好友吧
-            
+本港結業潮持續，餐飲業以酒樓為重災區。位於香港仔海怡半島西商場的「盈暉海鮮酒家」 日前貼出公告，宣布因租約期滿結束營運，營業至剛過去的周日（12日）為止。 該集團另一家位於長沙灣的分店，亦已於8月結業，當時飲食業職工總會表示，正協助逾50位員工到勞工處落案，追討金額約700萬，涉及拖欠7月薪金、遣散費、代通知金、年假、休息日等。有南區網民周二（14日）在Facebook發帖，海怡半島西商場的盈暉海鮮酒家，於周日公貼出「光榮結業」公告，並感謝顧客多年來支持。 根據公司網頁顯示，盈暉海鮮酒家隸屬於盈暉集團，而該集團自2003年創立，經營高級飲食品牌，以精緻粵菜為代表，曾在香港及澳門擁有8間分店，分別為「盈暉海鮮酒家」及「盈暉燒味至尊」兩大品牌。其中，盈暉海鮮酒家此前在長沙灣門市結業後，在香港已僅餘海怡半島分店，而隨著該店亦於周日結業，意味該酒家於香港所有分店均結束營運。至於盈暉海鮮酒家在澳門威尼斯人的門市，則仍如常營運，官方Facebook日前仍宣傳多款菜式，至於8月1日結業的長沙灣店，當時有工會指部份員工遭拖欠7月薪金及遣散費等。勞工處同日證實，至少收到約40名員工求助，主要涉及欠薪及解僱補償，申索總額約為300萬，處方正積極跟進事件，會要求僱主妥善處理受影響僱員的欠薪及解僱補償。積金局則指，該酒家目前沒有拖欠強積金供款。
