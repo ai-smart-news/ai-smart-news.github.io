@@ -1,8 +1,1 @@
-
-2025-10-18樂透彩中獎號碼
-
-                                
-114年 07~08月統一發票中獎號碼
-                             
-2025-10-19空氣品質指標
-                              
+Copyright © 2025 China Times Group All Rights Reserved. Web design by FT.
