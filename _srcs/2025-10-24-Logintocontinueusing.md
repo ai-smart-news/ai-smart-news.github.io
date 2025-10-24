@@ -1,1 +1,23 @@
-您使用的瀏覽器版本較舊，已不再受支援。建議您更新瀏覽器版本，以獲得最佳使用體驗。請在瀏覽器上啟用JavaScript來瀏覽頁面中的所有內容。Stephen Curry對金塊砍下42分，勇士最終在延長賽以137：131獲勝，也讓Aaron Gordon生涯新高並飆破隊史紀錄的50分顯得黯淡。Curry全場三分球12投6中，包括第四節倒數21.9秒的追平三分球，讓勇士得以續命至延長賽。勇士在延長賽打出一波12比2攻勢，澆熄金塊反撲氣焰，Jimmy Butler 21分、6助攻、5籃板、3抄截，Jonathan Kuminga 14分、5籃板、3助攻。Draymond Green為勇士貢獻13分、8籃板、8助攻，本季新加盟的老將Al Horford 13分，Brandin Podziemski與Buddy Hield各11分。Gordon攻下生涯新高的50分，並打破Alex English在1985年所創的開幕戰最高單場得分（47）的隊史紀錄，當時的對手剛好也是勇士。金塊聯盟最後1支打例行賽開幕戰的球隊，Nikola Jokic 21分、13籃板、10助攻，追平Oscar Robertson所創的開幕戰4次大三元紀錄。馬上加入「LINE TODAY 運動」官方帳號，熱播球賽即時通知，好球不錯過～
+專題｜彈珠機熱潮席捲全港　葵廣3個月激增10間　玩家月花$2000贏萬元獎品圍爐‧陳子達EP1-3全集｜推動亞太區部門組織緊密合作　情報交換互助達致最大效益維港海上大巡遊四大角色率先現身金鐘站！多啦A夢首度車站廣播+滑嘟嘟快閃現身！身心有營飲食法則｜女性「經前症候群」如何舒緩？補充2種營養減經痛、穩情緒無印良品全新概念便利店登陸港鐵站！設麵包區與自助咖啡機 開幕送限定手挽袋千両推秋冬限定新餐目：$298抵食龍蝦二食、甘酒豚肉山味噌鍋、打卡必點煙燻刺身打卡好去處｜生蠔BB九龍塘NAMAGAKI FESTIVAL展覽開幕：必影巨型4米罐頭、抽紀念閃卡Netflix懸疑韓劇《你旁觀的罪》定檔11月7日 全少妮、李瑜美攜手展開絕望復仇墨魚遊戲3｜東方昇對戰陸永玩007賽後感言：忍笑忍得好辛苦！Jeffrey救肥腸：係愛呀G-Dragon榮獲玉冠文化勳章成歷來最年輕得主 「和BIGBANG成員一起分享這份榮耀」韓國「金唱片獎」40位最具影響力音樂人名單出爐：GD、BTS、IU、少女時代榜上有名Greater Bay Area Conference 2025: Uniting Finance, Talent, and Culture for GBA GrowthOpinion | New Cross-Border Driving Scheme: A Win-Win for Hong Kong and GuangdongOpinion | Embracing the Future: The Promise and Challenges of Autonomous Vehicles in Hong KongOpinion | The 3P+T Approach: Unlocking Hong Kong's Potential as an International Knowledge Transfer HubGame On GBA | Life as a circuit: Racing culture in MacaoOpinion | World university rankings have boosted the attractiveness of the “Study in Hong Kong” brand毒販將毒品存放近岸水域利用潛水員打撈　警拘3男檢值4200萬可卡因追緝兩外籍男
+圖：{{recommend.origin}}
+編輯：{{recommend.userName}}
+責編：{{recommend.checkUserName}}
+製圖：{{recommend.design}}
+拍攝：{{recommend.capture}}
+剪接：{{recommend.montage}}
+{{recommend.showDate}}
+
+                        來源：{{recommend.origin}}
+
+圖：{{recommend.origin}}
+編輯 | {{recommend.userName}}
+責編 | {{recommend.checkUserName}}
+製圖 | {{recommend.design}}
+拍攝 | {{recommend.capture}}
+剪接 | {{recommend.montage}}
+
+
+                            來源：{{recommend.origin}}
+
+                                        {{comment.text}}
+                                    
