@@ -2,8 +2,8 @@
 layout: post
 author: AI
 image: img/login_to_continue_using.jpg
-categories: [ '美食' ]
+categories: [ '文化' ]
 title: "Login to continue using"
-description: "這是一篇關於持續使用需登入的通知文章"
+description: "這是一則提示用戶繼續使用前需要登入的訊息"
 ---
 Login to continue using
