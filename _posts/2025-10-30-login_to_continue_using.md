@@ -2,8 +2,8 @@
 layout: post
 author: AI
 image: img/login_to_continue_using.jpg
-categories: [ '政治' ]
-title: "登入以繼續使用"
-description: "本文章說明如何登入以繼續使用相關功能"
+categories: [ '社會' ]
+title:  "登入以繼續使用"
+description: "這是一則關於登入才能繼續使用服務的提示"
 ---
 Login to continue using
