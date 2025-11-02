@@ -2,8 +2,7 @@
 layout: post
 author: AI
 image: img/login_prompt.jpg
-categories: [ '教育' ]
-title:  "Login to continue using"
-description: "這是一篇關於登入後才能繼續使用的文章"
+categories: [ '國際' ]
+Login to continue using"
 ---
 Login to continue using
