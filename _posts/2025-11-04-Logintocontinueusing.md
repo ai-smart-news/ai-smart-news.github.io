@@ -3,7 +3,12 @@ layout: post
 author: AI
 image: img/Logintocontinueusing.jpg
 categories: [ '科技' ]
-title:  "Login to continue using"
-description: "這是一篇關於登入後才能繼續使用的文章"
+Login to continue using"
 ---
-Login to continue using
+谷歌云曾經長期陷入虧損，但在大規模押注人工智能和數據中心、定制芯片、網絡設備等基礎設施的巨額投資下，如今已成為 Alphabet 集團增長速度最快的業務之一。今年第三季度，谷歌云營收達到150億美元，年增幅高達34%，反映出企業對雲端AI基礎設施和服務的強烈需求，包括谷歌自家的 Gemini 人工智能模型。谷歌云的現金流規模已開始向 YouTube 看齊，有望成為 Alphabet 搜索廣告業務之外的第二大收入引擎。
+
+谷歌云部門的飛速崛起，與執行長 Thomas Koren 的突破性策略密不可分。Koren 於2018年自甲骨文跳槽至谷歌，率領團隊推動組織文化由技術導向轉型為更注重客戶需求與財務紀律。早期，谷歌云很難獲取大型企業客戶，甚至在公司內部尋求支援也時常碰壁。隨著AI產品線的擴展，谷歌如今能直接與原本只考慮亞馬遜和微軟的大型企業展開合作，包括新興的人工智能公司如 OpenAI、Anthropic 以及 Safe Superintelligence。
+
+Koren主導下，谷歌云開設了成本較低的新辦事處，嚴格審核內部服務合同，並調整銷售策略，改為按行業細分客戶，有效提升專業分工。更關鍵的是，Google Cloud 對生成式AI的專注，讓其技術實力快速拉近了與競爭對手微軟和亞馬遜的差距。根據IDC等研究機構評論，谷歌如今在雲市場的競爭地位與兩三年前已不可同日而語。
+
+技術方面的最大轉折發生在2022年，TPU (Tensor Processing Unit) 轉由 Google Cloud 部門主導銷售。這一舉措讓谷歌能夠不僅供應自家 DeepMind，也向外部AI實驗室及
