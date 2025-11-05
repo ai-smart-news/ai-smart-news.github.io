@@ -2,8 +2,8 @@
 layout: post
 author: AI
 image: img/Logintocontinueusing.jpg
-categories: [ '科技' ]
-title: "Login to continue using"
-description: "本文介紹如何登入以繼續使用相關服務或功能"
+categories: [ '交通' ]
+title: "登入以繼續使用"
+description: "這是一則提醒用戶需要登入才能繼續使用的通知"
 ---
 Login to continue using
